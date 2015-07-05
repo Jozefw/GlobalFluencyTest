@@ -1,0 +1,162 @@
+@font-face {
+    font-family: Archer_bold;
+    src: url(fonts/archer-bolditalic-opentype.otf);
+}
+
+main {
+	width: 100%;
+	margin: 10px 50px;
+}
+
+.left-nav{
+	color: #cc4549;
+	font-family: Archer_bold;
+	font-size: 1.5em;
+	border-bottom: 1px solid #2ea17a;
+	padding-bottom: 9px;
+	margin-bottom: 15px;
+}
+
+ul{
+	color: #2ea17a;
+	font-family: arial;
+	font-size: .9em;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+ul li{
+	background-image: url(images/blue-Square_03.jpg);
+    background-repeat: no-repeat;
+    background-position: 0 center;
+    padding-left: 25px;
+    margin-bottom: 12px;
+
+}
+
+ul:nth-child(2){
+	color: black;
+}
+
+a{
+	color: #2ea17a;
+	text-decoration: none;
+	font-size: 16px;
+}
+
+.team{
+	color: #6e6e6e;
+	font-family: Archer_bold;
+	font-size: 1.8em;
+	border-bottom: 1px solid #6e6e6e;
+	padding-bottom: 16px;
+	margin-bottom: 15px;
+}
+
+nav {
+	width: 25%;
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 20px;
+	line-height: 134%;
+}
+
+.shareIcons{
+	font-family: arial;
+	font-size: .65em;
+	margin-bottom: 2px;
+}
+
+footer{
+	margin-top: 25px;
+}
+
+.boldName {
+	font: bold 14px arial;
+}
+section{
+	font-family: arial;
+	font-size: 13px;
+	vertical-align: top;
+	line-height: 110%;
+	width: 60%;
+	display: inline-block;
+}
+
+.lowerNav{
+	border-top: 1px solid #6e6e6e;
+	padding:20px 0 15px 0;
+}
+
+.final{
+	border-bottom: 1px solid #6e6e6e;
+	margin-bottom: 15px;
+	padding-bottom: 25px;
+}
+
+/*sprites sheet styleing here*/
+
+.fb, .twit_03, .Neale, .linkedIn_03{
+	background: url(sprites.png) no-repeat;
+}
+
+.fb{
+	background-position: 0 0;
+	width: 21px;
+	height: 22px;
+	border-radius: 5px;
+	overflow: hidden;
+	margin-right: 5px;
+}
+
+.twit_03{
+	background-position: 0 -28px ;
+	width: 19px;
+	height: 23px;
+	border-radius: 5px;
+	overflow: hidden;
+	margin-right: 5px;
+}
+
+.Neale{
+	background-position: 0 -88px ;
+	width: 70px;
+	height: 70px;
+	float: left;
+	vertical-align: text-top;
+	margin-right: 8px;
+	margin-bottom: 1px;
+}
+
+.linkedIn_03{
+	background-position: 0 -60px ;
+	width: 21px;
+	height: 21px;
+	border-radius: 5px;
+	overflow: hidden;
+	margin-right: 5px;
+}
+
+/*iphone media quiery*/
+@media only screen and (max-width: 480px){
+
+nav {
+	width: 25%;
+	display: block;
+	margin-right: 20px;
+	line-height: 134%;
+	margin-bottom: 20px;
+
+}
+
+section{
+	font-family: arial;
+	font-size: 13px;
+	line-height: 110%;
+	width: 60%;
+	display: block;
+}
+
+
+}

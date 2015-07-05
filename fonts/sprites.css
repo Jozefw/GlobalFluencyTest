@@ -1,0 +1,28 @@
+.fb, .twit_03, .Neale, .linkedIn_03{
+	background: url(sprites.png) no-repeat;
+}
+
+.fb{
+	background-position: 0 0;
+	width: 21px;
+	height: 22px;
+}
+
+.twit_03{
+	background-position: 0 -28px ;
+	width: 19px;
+	height: 23px;
+}
+
+.Neale{
+	background-position: 0 -88px ;
+	width: 70px;
+	height: 70px;
+}
+
+.linkedIn_03{
+	background-position: 0 -60px ;
+	width: 21px;
+	height: 21px;
+}
+
